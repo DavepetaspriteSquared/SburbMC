@@ -19,19 +19,6 @@ public class SburbMC extends JavaPlugin{
 
 	ArrayList<Quirk> quirks;
 	
-
-	
-//	ArrayList<Player> Sollux = new ArrayList<Player>();
-//	ArrayList<Player> Porrim = new ArrayList<Player>();
-//	ArrayList<Player> Mituna = new ArrayList<Player>();
-//	ArrayList<Player> Kurloz = new ArrayList<Player>();
-//	ArrayList<Player> Vriska = new ArrayList<Player>();
-//
-//	ArrayList<Player> Jasprosesprite = new ArrayList<Player>();
-//	ArrayList<Player> Davepetasprite = new ArrayList<Player>();
-//	ArrayList<Player> Erisolsprite = new ArrayList<Player>();
-	
-	
 	public void onEnable() {
 		
 		quirks = new ArrayList<Quirk>();
