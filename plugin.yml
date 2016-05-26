@@ -1,0 +1,7 @@
+name: SburbMCPlugin
+version: 1.0
+main: com.sburbmc.SburbMC
+commands:
+    quirk:
+        description: Changes your Quirk!
+        usage: /<command> [args]
