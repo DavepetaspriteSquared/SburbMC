@@ -3,9 +3,9 @@ package com.sburbmc;
 import org.bukkit.event.Listener;
 
 public class JoinListener implements Listener {
+	
+	// TODO Change Join Message
 
-	public JoinListener(SburbMC sburbMC) {
-		// TODO Auto-generated constructor stub
-	}
-
+	
+	
 }

@@ -40,9 +40,6 @@ public class SburbMC extends JavaPlugin{
 		quirks.add(new Quirk("Davepetasprite^2"));
 		quirks.add(new Quirk("Erisolsprite"));
 		
-		getServer().getPluginManager().registerEvents(new ChatListener(), this);
-		getServer().getPluginManager().registerEvents(new JoinListener(this), this);
-		
 	}
 	
 	public void onDisable() {
@@ -68,10 +65,6 @@ public class SburbMC extends JavaPlugin{
 		if (cmd.getName().equalsIgnoreCase("quirk") && sender instanceof Player) {
 
 			Player p = (Player) sender;
-			
-			p.sendMessage("Arguments: " + args.length);
-			p.sendMessage("Args[0]: " + args[0]);
-			p.sendMessage("Args[1]: " + args[1]);
 			
 			if (args.length == 0){
 				p.sendMessage(ChatColor.RED + "Please select a Character!");
